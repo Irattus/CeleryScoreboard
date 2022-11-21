@@ -55,7 +55,7 @@ bool LiteSqlManager::createTable()
 {
 
     QSqlQuery query;
-    query.prepare(QString("CREATE TABLE %1(id INTEGER PRIMARY KEY, name TEXT, celery INTEGER);").arg(Table));
+    query.prepare(QString("CREATE TABLE %1(name TEXT PRIMARY KEY, celery INTEGER);").arg(Table));
     return QueryExec(&query);
 }
 

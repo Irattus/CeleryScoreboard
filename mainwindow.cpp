@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QSqlTableModel>
 
-static const QString path("CeleryScoreoard.sql");
+static const QString path("Scoreboard.sql");
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
